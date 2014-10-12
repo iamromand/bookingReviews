@@ -1,4 +1,0 @@
-bookingReviews
-==============
-
-Booking Reviews Script
