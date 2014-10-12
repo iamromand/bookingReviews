@@ -205,7 +205,7 @@ def singleFile(url, lang):
         lenOfHtml = mainFunc(hotel,i,lang)
     content=open(hotel + "_" + lang + ".csv", encoding="UTF-8").read()
     #content = html.unescape(content)
-    content = html.parser.HTMLParser().unescape(content)
+    content = html.parser.HTMLParser().unescape(contents)
     f1 = open(hotel + "_" + lang + ".csv", "w", encoding="UTF-8", newline='')
     f1.write(content)
     f1.close()
